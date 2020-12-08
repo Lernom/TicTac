@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3f703feecf7b0940ad689f23c0b8775, type: 3}
+  m_Name: TicTacModule
+  m_EditorClassIdentifier: 
+  CellPrefab: {fileID: 5705010832530702337, guid: 69557453e09b1db499501c6203fd0249,
+    type: 3}
+  FieldSize: {x: 3, y: 3}
+  WinningRowLength: 3
+  _playerLabels:
+  - X
+  - O
+  - =
